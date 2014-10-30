@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8E67BC019F8F00100D2B73C /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E67BBF19F8F00100D2B73C /* Supplies.swift */; };
+		E8E67BC219F8F21600D2B73C /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E67BC119F8F21600D2B73C /* Price.swift */; };
 		E8EE04A919E4369900BCB3B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EE04A819E4369900BCB3B2 /* AppDelegate.swift */; };
 		E8EE04AB19E4369900BCB3B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EE04AA19E4369900BCB3B2 /* ViewController.swift */; };
 		E8EE04AE19E4369900BCB3B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8EE04AC19E4369900BCB3B2 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8E67BBF19F8F00100D2B73C /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
+		E8E67BC119F8F21600D2B73C /* Price.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 		E8EE04A319E4369900BCB3B2 /* LemonadeStand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LemonadeStand.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EE04A719E4369900BCB3B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E8EE04A819E4369900BCB3B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			children = (
 				E8EE04A819E4369900BCB3B2 /* AppDelegate.swift */,
 				E8EE04AA19E4369900BCB3B2 /* ViewController.swift */,
+				E8E67BBF19F8F00100D2B73C /* Supplies.swift */,
+				E8E67BC119F8F21600D2B73C /* Price.swift */,
 				E8EE04AC19E4369900BCB3B2 /* Main.storyboard */,
 				E8EE04AF19E4369900BCB3B2 /* Images.xcassets */,
 				E8EE04B119E4369900BCB3B2 /* LaunchScreen.xib */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8EE04AB19E4369900BCB3B2 /* ViewController.swift in Sources */,
+				E8E67BC219F8F21600D2B73C /* Price.swift in Sources */,
+				E8E67BC019F8F00100D2B73C /* Supplies.swift in Sources */,
 				E8EE04A919E4369900BCB3B2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,6 +413,7 @@
 				E8EE04C419E4369900BCB3B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8EE04C519E4369900BCB3B2 /* Build configuration list for PBXNativeTarget "LemonadeStandTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +422,7 @@
 				E8EE04C719E4369900BCB3B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
